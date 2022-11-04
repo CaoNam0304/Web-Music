@@ -1,0 +1,86 @@
+.tab__right {
+    padding: 30px;
+    width: 24%;
+    background-color: $bg-primaryMain;
+    border-left: 1px solid rgb(237, 228, 228);
+    &-member {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &-avatar {
+        width: 40px;
+        border-radius: 20px;
+    }
+    &-name {
+        font-weight: 800;
+        font-size: 1.8rem;
+    }
+    &-premium {
+        font-size:1.4rem;
+        font-weight: 300;
+    }
+    &-member-icon--bell{
+        font-size: 25px;
+    }
+    &-member-group{
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    &-rescent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 0;
+        &-siger-song{
+            line-height: 2rem;
+        }
+        &-img-song{
+            width: 50px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        &-name--siger{
+            font-size: $font-name-singer;
+            font-weight: 500;
+            opacity: 0.8;
+        }
+        &-name--song{
+            font-weight: 600;
+            font-size: $font-name-song;
+            opacity: 0.8;
+        }
+        &-time{
+            font-size: 1.3rem;
+        }
+        &--group{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.tab__right-current--song{
+    &-bg{
+        background-color: $bg-white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    &-img{
+        border-radius: 100px;
+    }
+    &-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    &-name{
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    &-icon{
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,74 @@
+.main__playlist {
+    height:260px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    &-index{
+        font-size: 1.5rem;
+        color: gray;
+        
+    
+    }
+    &-name{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    &-group{
+        display: flex;
+        align-items: center;
+        line-height: 1.8rem;
+    }
+    &-singer{
+        font-size: 1.2rem;
+        color: gray;
+    }
+    &-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // margin: 5px 0;
+        // background-color: $bg-white;
+        padding: 8px 0px;
+        border-top: 1px solid rgb(235, 226, 226);
+        
+        &:hover{
+            background-color: $bg-primary;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        }
+    }
+    &-img{
+        width: 45px;
+        border-radius: 5px;
+        margin:0 15px;
+    }
+    &-control{
+        display: flex;
+        align-items: center;
+    
+    }
+    &-option{
+        font-size: 1.5rem;
+        margin: 0 15px;
+    }
+    &-time{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: gray;
+    }
+    &-group--text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        
+    }
+    &-group--text-mgtop{
+        margin-top: 0px;
+    }
+    
+}
+.main__playlist-more{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,104 @@
+.main {
+    // background: $bg-primaryMain;
+    // padding: 30px;
+    width: 60%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    &__seach-icon{
+        padding: 0 20px;
+    }
+    &__seach{
+        display: flex;
+        background-color: $bg-white;
+        width: 400px;
+        height: 30px;
+        border-radius: 20px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.06);
+    }
+    &__seach-input{
+        width: 100%;
+        border: none;
+        background-color: $bg-white;
+        border-radius: 20px;
+    }
+}
+
+.main__trending {
+    margin-top: 30px;
+    
+}
+
+.group__main{
+    padding: 20px 50px;
+}
+.main__category{
+    &-music{
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        background: $bg-white;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        color: gray;
+        margin: 0 3px;
+    }
+    &-active{
+        background: rgb(98, 98, 172);
+        color: $bg-white;
+    }
+}
+
+.main__seach-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main__trending{
+    display: flex;
+    margin: 0 5px;
+    &-slide{
+        display: flex;
+        flex-direction: column;
+    }
+    &-info{
+        display: flex;
+        align-items:center;
+        
+    }
+    &-img{
+        width: 150px;
+        border-radius: 8px;
+    }
+    &-btn{
+        width: 30px;
+        height: 30px;
+        background: $bg-white;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        border-radius: 20px;
+        background: transparent;
+        margin: 16px
+    }
+    &-name{
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 3px;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        width: 100px;
+    }
+    &-singer{
+        font-size: 1.1rem;
+        color: $gray-text;
+    }
+}
+

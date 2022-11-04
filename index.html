@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/Icon/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./scss/grid.css">
+    <script src="https://kit.fontawesome.com/b5ae02eeb1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="tab__bar">
+            <div class="tab__bar-group">
+                <img src="./assets/img/logomusic.png" alt="" class="tab__bar--logo">
+                <!-- <div class="tab__bar--icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
+            </div>
+            <div class="tab__bar--index">
+                <ul class="tab__bar--list">
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-house"></i></span>
+                        Trang Chủ
+                    </li>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"> <i class="fa-solid fa-user"></i> </span>
+                        Cá nhân
+                    </li>
+                </ul>
+                <ul class="tab__bar--list">
+                    <h1 class="tab__bar--title">Khám Phá</h1>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-envelope"></i> </span>
+                        Thể Loại
+                    </li>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-circle-up"></i> </span>
+                        Top 100
+                    </li>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-film"></i> </span>
+                        MV
+                    </li>
+                </ul>
+                <ul class="tab__bar--list">
+                    <h1 class="tab__bar--title">Thư Viện</h1>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-table"></i> </span>
+                        Bài Hát
+                    </li>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-calendar-week"></i> </span>
+                        Playlist
+                    </li>
+                    <li class="tab__bar--item">
+                        <span class="tab__bar-icon--item"><i class="fa-solid fa-house"></i></span>
+                        Gần Đây
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="group__main">
+                <div class="main__seach-group">
+                    <div class="main__category">
+                        <button class="main__category-music main__category-active">
+                            Music
+                        </button>
+                        <button class="main__category-music">
+                            Podcast
+                        </button>
+                        <button class="main__category-music">
+                            Radio
+                        </button>
+                    </div>
+                    <div class="main__seach">
+                        <div class="main__seach-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" class="main__seach-input"
+                            placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát...">
+                    </div>
+                </div>
+                <div class="main__playlist-group--text">
+                    <h1 class="main__playlist-title">Popular Now</h1>
+                    <p class="main__playlist-more">See All</p>
+                </div>
+                <div class="main__trending">
+                    
+                    <div class="main__trending-slide">
+                        <div class="main__trending-itemt">
+                            <img src="./assets/img/img1.jpg" alt="" class="main__trending-img">
+                            <div class="main__trending-info">
+                                <div class="main__trending-song">
+                                    <div class="main__trending-name">Lời Tạm Biệt Chưa Nói</div>
+                                    <div class="main__trending-singer">Kai Đinh - 02:10</div>
+                                </div>
+                                <div class="main__trending-btn">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__trending-slide">
+                        <div class="main__trending-itemt">
+                            <img src="./assets/img/img2.jpg" alt="" class="main__trending-img">
+                            <div class="main__trending-info">
+                                <div class="main__trending-song">
+                                    <div class="main__trending-name">Lời Tạm Biệt Chưa Nói</div>
+                                    <div class="main__trending-singer">Kai Đinh - 02:10</div>
+                                </div>
+                                <div class="main__trending-btn">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__trending-slide">
+                        <div class="main__trending-itemt">
+                            <img src="./assets/img/img3.jpg" alt="" class="main__trending-img">
+                            <div class="main__trending-info">
+                                <div class="main__trending-song">
+                                    <div class="main__trending-name">Lời Tạm Biệt Chưa Nói</div>
+                                    <div class="main__trending-singer">Kai Đinh - 02:10</div>
+                                </div>
+                                <div class="main__trending-btn">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__trending-slide">
+                        <div class="main__trending-itemt">
+                            <img src="./assets/img/img4.jpg" alt="" class="main__trending-img">
+                            <div class="main__trending-info">
+                                <div class="main__trending-song">
+                                    <div class="main__trending-name">Lời Tạm Biệt Chưa Nói</div>
+                                    <div class="main__trending-singer">Kai Đinh - 02:10</div>
+                                </div>
+                                <div class="main__trending-btn">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__trending-slide">
+                        <div class="main__trending-itemt">
+                            <img src="./assets/img/img5.jpg" alt="" class="main__trending-img">
+                            <div class="main__trending-info">
+                                <div class="main__trending-song">
+                                    <div class="main__trending-name">Lời Tạm Biệt Chưa Nói</div>
+                                    <div class="main__trending-singer">Kai Đinh - 02:10</div>
+                                </div>
+                                <div class="main__trending-btn">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__playlist-group--text main__playlist-group--text-mgtop">
+                    <h1 class="main__playlist-title">Playlist</h1>
+                    <p class="main__playlist-more">See All</p>
+                </div>
+                <div class="main__playlist">
+                    <!-- <div class="main__playlist-item">
+                    <div class="main__playlist-group">
+                        <span class="main__playlist-index">01</span>
+                        <img src="./assets/img/img1.jpg" alt="" class="main__playlist-img">
+                        <div class="main__playlist-info">
+                            <p class="main__playlist-name">Waiting For You</p>
+                            <p class="main__playlist-singer">Mono</p>
+                        </div>
+                    </div>
+                    <div class="main__playlist-control">
+                        <span class="material-symbols-outlined main__playlist-like"> favorite </span>
+                        <i class="fa-solid fa-ellipsis main__playlist-option"></i>
+                    </div>
+                </div>
+                <div class="main__playlist-item">
+                    <div class="main__playlist-group">
+                        <span class="main__playlist-index">02</span>
+                        <img src="./assets/img/img2.jpg" alt="" class="main__playlist-img">
+                        <div class="main__playlist-info">
+                            <p class="main__playlist-name">Có Chơi Có Chịu</p>
+                            <p class="main__playlist-singer">Karik</p>
+                        </div>
+                    </div>
+                    <div class="main__playlist-control">
+                        <span class="material-symbols-outlined main__playlist-like"> favorite </span>
+                        <i class="fa-solid fa-ellipsis main__playlist-option"></i>
+                    </div>
+                </div>
+                <div class="main__playlist-item">
+                    <div class="main__playlist-group">
+                        <span class="main__playlist-index">03</span>
+                        <img src="./assets/img/img3.jpg" alt="" class="main__playlist-img">
+                        <div class="main__playlist-info">
+                            <p class="main__playlist-name">Mặt Mộc</p>
+                            <p class="main__playlist-singer">Phạm Nguyên Ngọc x VAnh x Ân Nhi</p>
+                        </div>
+                    </div>
+                    <div class="main__playlist-control">
+                        <span class="material-symbols-outlined main__playlist-like"> favorite </span>
+                        <i class="fa-solid fa-ellipsis main__playlist-option"></i>
+                    </div>
+                </div>
+                <div class="main__playlist-item">
+                    <div class="main__playlist-group">
+                        <span class="main__playlist-index">04</span>
+                        <img src="./assets/img/img5.jpg" alt="" class="main__playlist-img">
+                        <div class="main__playlist-info">
+                            <p class="main__playlist-name">Lời Tạm Biệt Chưa Nói</p>
+                            <p class="main__playlist-singer">GREY D x ORANGE x Kai Dinh</p>
+                        </div>
+                    </div>
+                    <div class="main__playlist-control">
+                        <span class="material-symbols-outlined main__playlist-like"> favorite </span>
+                        <i class="fa-solid fa-ellipsis main__playlist-option"></i>
+                    </div>
+                </div>
+                <div class="main__playlist-item">
+                    <div class="main__playlist-group">
+                        <span class="main__playlist-index">01</span>
+                        <img src="./assets/img/img1.jpg" alt="" class="main__playlist-img">
+                        <div class="main__playlist-info">
+                            <p class="main__playlist-name">Waiting For You</p>
+                            <p class="main__playlist-singer">Mono</p>
+                        </div>
+                    </div>
+                    <div class="main__playlist-control">
+                        <span class="material-symbols-outlined main__playlist-like"> favorite </span>
+                        <i class="fa-solid fa-ellipsis main__playlist-option"></i>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+
+            <div class="main__control">
+                <div class="main__control-group">
+                    <div class="main__control-left">
+                        <div class="main__control-left--bg main__control-left--bg--white">
+                            <span class="material-symbols-outlined">favorite</span>
+                        </div>
+                        <div class="main__control-left--bg main__control-left--bg--white">
+                            <span class="material-symbols-outlined">library_music</span>
+                        </div>
+                        <div class="main__control-left--bg main__control-left--bg--white">
+                            <span class="material-symbols-outlined">open_in_full</span>
+                        </div>
+                    </div>
+                    <div class="main__control-between">
+                        <div class="main__control-between--bg">
+                            <i class="fa fa-random"></i>
+                        </div>
+                        <div class="main__control-between--bg">
+                            <i class="fa-solid fa-forward-fast"></i>
+                        </div>
+                        <div class="main__control-between--bg main__control-between--bg--black playing-btn main__control-icon-play">
+                            <ion-icon class="" name="play"></ion-icon>
+                        </div>
+                        <div class="main__control-between--bg">
+                            <i class="fa-solid fa-backward-fast"></i>
+                        </div>
+                        <div class="main__control-between--bg">
+                            <i class="fa-solid fa-repeat"></i>
+                        </div>
+
+                    </div>
+                    <div class="main__control-right">
+                        <div class="main__control-right--bg">
+                            <i class="fa-sharp fa-solid fa-volume-low"></i>
+                        </div>
+                        <input id="progress" class="main__control-progress-input main__control-progress-input-volum"
+                            type="range" value="0" step="1" min="0" max="100">
+                        <div class="main__control-right--bg">
+                            <i class="fa-sharp fa-solid fa-volume-high"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main__control-progress">
+                    <p class="main__control-progress-time main__control-progress-time--curent">00:00</p>
+                    <input id="progress" class="main__control-progress-input" type="range" value="0" step="1" min="0"
+                        max="100">
+                    <p class="main__control-progress-time main__control-progress-time--end">02:59</p>
+                </div>
+            </div>
+
+        <audio id="audio" src=""></audio>
+        </div>
+ 
+    <script src="./app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
